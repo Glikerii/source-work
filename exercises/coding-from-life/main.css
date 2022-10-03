@@ -1,1 +1,113 @@
 /* Your CSS Here! */
+body {
+background-color: #aaaaaa;
+}
+
+.container {
+width: 100vw;
+height: 102vh;
+position: absolute;
+
+}
+
+.background {
+    width: 100%;
+    height: 42%;
+    background-color: lightyellow;
+
+}
+
+.candle_body {
+    width: 50px;
+    height: 100px;
+    background-color: wheat;
+    position: absolute;
+
+    bottom: 52%;
+    left: 30%;
+
+    z-index: 5;
+
+    border-radius: 10px;
+
+    box-shadow: 90px;
+}
+
+.candle_stem {
+    width: 10px;
+    height: 31px;
+    background-color: black;
+    position: absolute;
+
+    bottom: 61%;
+    left: 33%;
+    transform: rotate(20deg);
+    z-index: 6;
+
+    border-radius: 30px;
+}
+
+.plant {
+    position: absolute;
+    bottom: 55%;
+    left: 39%;
+}
+
+.plant_pot {
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+
+    z-index: 1; 
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 90px;
+
+}
+
+.plant_leaves {
+    width: 55px;
+    top: -90px;
+    background-color: green;
+
+    position: absolute;
+    z-index: 9;
+
+    border-top-left-radius: 20px;
+
+}
+.plant_leaves_1 {
+    height: 100px;
+    top: -100px;
+    left: 132px;
+
+    background-color: darkgreen;
+
+    border-bottom-right-radius: 30px;
+
+}
+
+.plant_leaves_2 {
+    height: 130px;
+    top: -130px;
+    left: 77px;
+
+    background-color: green;
+
+}
+
+.plant_leaves_3 {
+    height: 66px;
+    top: -66px;
+    left: 22px;
+
+    background-color: lightgreen;
+    border-bottom-left-radius: 30px;
+
+}
