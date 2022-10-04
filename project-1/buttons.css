@@ -249,7 +249,7 @@
 }
 
     .step-11:hover {
-      background-image: url(mina/img-11.png);
+      background-image: url(mina/img-13.png);
       background-repeat: no-repeat;
       background-size: 100%;
       height:500px;
@@ -272,7 +272,7 @@
 }
     
 .step-12:hover {
-        background-image: url(mina/img-12.png);
+        background-image: url(mina/img-14.png);
         background-repeat: no-repeat;
         background-size: 100%;
         height:500px;
@@ -295,52 +295,6 @@
 }
     
     .step-13:hover {
-        background-image: url(mina/img-13.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height:500px;
-    }
-
-.step-14 {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 90px;
-    font-family: monospace;
-    font-size: 12px;
-    text-align: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 30px 40px 90px 50px;
-    border-style: none;
-    padding: auto;
-    cursor: pointer;
-}
-    
-    .step-14:hover {
-        background-image: url(mina/img-14.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height:500px;
-    }
-
-.step-15 {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 90px;
-    font-family: monospace;
-    font-size: 12px;
-    text-align: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 30px 40px 90px 50px;
-    border-style: none;
-    padding: auto;
-    cursor: pointer;
-}
-    
-   .step-15:hover {
         background-image: url(mina/img-15.png);
         background-repeat: no-repeat;
         background-size: 100%;
