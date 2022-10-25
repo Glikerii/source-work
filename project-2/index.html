@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>¯\_(ツ)_/¯</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="alert-container">
+            <div class="alert">
+                <h2 class="alert-heading", id="alert-heading">
+                    Are you sure you agree with cookies????
+                </h2>
+
+                <p class="alert-content" id="alert-content">Press "agree" if you agree, duh.
+                </p>
+
+                <button class="alert-button" id="alert-button" onclick="myFunction()">
+                    COOKIE!
+                </button>
+            </div>
+        </div>
+
+            <div class="body-text">
+                
+                <ul id="body-li">
+                    <li>Not</li> 
+                    <li>your</li> 
+                    <li>cookie</li> 
+                    <li>policy</li> 
+                    <li>rights</li>
+                    <li>may</li>
+                    <li>cause</li>
+                    <li>serious</li>
+                    <li>harm</li>
+                    <li>and</li>
+                    <li>damage</li>
+                    <li>your</li>
+                    <li>career</li>
+                    <li>in</li>
+                    <li>the</li>
+                    <li>future</li>
+                    <li>.</li>
+                    <li>Please</li>
+                    <li>accept</li>
+                    <li>all</li>
+                    <li>the</li>
+                    <li>cookies</li>
+                    <li>before</li>
+                    <li>proceeding</li>
+                    <li>to</li>
+                    <li>nowhere</li>
+                    <li>.</li>
+                </ul>
+            <p></p>
+            </div>
+
+    <script>
+
+        let listy = [
+            ["This is a warning that you must accept cookies", "Even though it's not good for your computer", "ACCEPT"],
+            ["Please, accept this one too", "You almost there!", "FINE"],
+            ["Dogs say woof", "Cats say meow", "You accept cookies"],
+            ["One more cookie", "You're doing great!", "OKAY"],
+            ["Accept this one too", "And see what's next", "Barack Obutton"],
+            ["Thanks for your patience!", "You're a good person", "OK"],
+            ["There's one more!", "Enjoy!", "CLICK"],
+        ];
+
+        
+        function myFunction() {
+            let alertObject = document.querySelector(".alert");
+            let alertHeading = document.querySelector("#alert-heading");
+            let alertContent = document.querySelector("#alert-content");
+            let alertButton = document.querySelector("#alert-button");
+            alertObject.classList.toggle("hide");
+            setTimeout(function(){
+                var item = listy[Math.floor(Math.random()*listy.length)];
+                alertHeading.innerText = item[0];
+                alertContent.innerText = item[1];
+                alertButton.innerText = item[2];
+                alertObject.classList.toggle("hide");
+            }, 1000);
+
+            var listItems = document.getElementById('body-li').children;
+
+            for(var i = 0; i < listItems.length; i ++) {
+            listItems[i].style.color = "#" + Math.floor(Math.random()*16777215).toString(16);    
+            }
+            
+        
+    }
+            
+
+    
+
+genNew.addEventListener("click", setBg);
+setBg();
+    </script>
+    </body>
+</html>

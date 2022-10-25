@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(181, 167, 129);
+    margin:0;
+    height: 1000px;
+  }
+  
+  .body-text {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    text-align:justify;
+ 
+  }
+  .body-text ul {
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 20%;
+  }
+  .body-text li {
+    font-family: 'Press Start 2P', bold;
+    color: rgb(255, 249, 206);
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    /*  */
+    /*  */
+    list-style-type: none;
+    display: inline;
+  }
+
+  .alert-container {
+    font-family: sans-serif;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    z-index:444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.alert-heading {
+    font-size: 28px;
+    text-align: center;
+    font-family: Helvetica;
+    margin-bottom: 0;
+}
+
+.alert-content {
+    font-weight: thin;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.alert-button {
+    font-weight: bold;
+    background-color: bisque;
+}
+
+  .alert {
+    max-width:400px;
+    width: 100%;
+    height:300px;
+    background-color:white;
+    border-radius:10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    transition:.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hide {
+    transform: scale(.8);
+    opacity:0;
+  }
